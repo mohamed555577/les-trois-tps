@@ -1,0 +1,7 @@
+a=int(input("saisir un entier"))
+if a>0 :
+    print("la valeur absolu du nombre",a)
+elif a<0:
+    print("la valeur absolu du nombre",-a)
+else:
+    print("la valeur absolu du nombre",0)

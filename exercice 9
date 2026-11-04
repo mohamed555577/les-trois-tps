@@ -1,0 +1,7 @@
+a=input("saisir un caractère ")
+if a>="A" and a<="Z":
+    print("lettre majuscule")
+elif a>="a" and a<="b":
+    print("lettre minuscule")
+else:
+    print("autre caractère")

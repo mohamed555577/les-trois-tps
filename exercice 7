@@ -1,0 +1,14 @@
+a=input("saisir le nom de la premiere personne")
+a1=int(input("saisir l'age de la premiere personne"))
+b=input(" saisir le nom de la deuxieme personne")
+b1=int(input("saisir l'age de la deuxieme personne"))
+c=input("saisir le nom de la troisieme personne")
+c1=int(input("saisir l'age de la troisieme personne"))
+if a1>b1 and a1>c1:
+    print(a)
+elif b1>a1 and b1>c1:
+    print(b)
+elif c1>a1 and c1>b1:
+    print(c)
+else:
+    print(" ils ont le mème age")

@@ -1,0 +1,12 @@
+maxi=int(input("saisir le premier nombre "))
+nuveau=int(input("saisir le deuxieme nombre"))
+if maxi < nuveau:
+   maxi = nuveau
+nuveau =int(input("saisir le troisieme nombre"))
+if maxi < nuveau:
+    maxi=nuveau
+nuveau =int(input("saisir le quatrieme nombre"))
+if maxi <nuveau :
+    maxi =nuveau
+print ("le chifre le plus grand est",maxi)
+

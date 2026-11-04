@@ -1,0 +1,5 @@
+a=input("saisir une lettre d'alphabet")
+if a in "a,i,y,u,e,o":
+    print("il s'agit d'une voyelle")
+else :
+    print("il s'agit d'une consonne")    

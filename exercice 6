@@ -1,0 +1,6 @@
+a=int(input("saisir un entier positif"))
+b=int(input("saisir un entier positif different du précedant"))
+if a%b ==0:
+    print("a est divisible par b")
+else :
+    print("non")

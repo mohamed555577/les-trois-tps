@@ -1,0 +1,3 @@
+a=int(input("saisir votre age"))
+if a>=18:
+    print("personne majeur")

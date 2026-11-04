@@ -1,0 +1,9 @@
+a=int(input("saisir la valeur de entier"))
+s=0
+for i in range(1,int(a/2)+1):
+    if a % i==0 :
+        s=s+i
+if s==a: 
+        print(" nb parfait")
+else:
+    print("nb non parfait")

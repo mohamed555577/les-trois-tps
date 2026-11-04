@@ -1,0 +1,3 @@
+# exercic e5
+a=input("saisir la ville de residence:")
+print ("vous habitez à:" ,a)

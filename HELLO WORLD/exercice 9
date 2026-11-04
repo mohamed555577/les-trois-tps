@@ -1,0 +1,5 @@
+ #exercice9
+dk =float(input("dk:"))
+dm=dk*1000
+print("la distance en metre:",dm)
+

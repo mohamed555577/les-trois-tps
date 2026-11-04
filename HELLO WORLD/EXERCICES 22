@@ -1,0 +1,12 @@
+A=int(input("saisi l'age de l'enfant"))
+if A>=6 and A<=7:
+    q="poussin"
+elif A>=8 and A<=9:
+    q="pupille"
+elif A>=10 and A<=11:
+    q="minime"
+else:
+    q="cadet"
+
+print("la catégorie d'enfant est :",q)
+

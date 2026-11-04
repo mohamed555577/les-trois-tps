@@ -1,0 +1,6 @@
+a=int(input("saisir le nombres de base A:" ))
+t=int(input("saisir le nombres de base B:"))
+c=int(input("saisir le nombres de base C :"))
+g=int(input("saisir le nombres de base D :"))
+M=(a*313)+(t*304)+(g*329)+(c*289)
+print("la masse molaire totale de la séquence:",M)

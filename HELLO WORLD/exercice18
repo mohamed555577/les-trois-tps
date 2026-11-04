@@ -1,0 +1,6 @@
+a=int(input("saisir A="))
+b=int(input("saisir B="))
+if a*b>0:
+    print("les deux nombres donné sont de meme signe")
+else:
+    print("les deux nonmbres sont de signe different")

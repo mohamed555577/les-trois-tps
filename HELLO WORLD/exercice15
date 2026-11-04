@@ -1,0 +1,4 @@
+a=float(input("saisir la quantité d'adn en nanogrammes:"))
+b=float(input("saisir le volume de solution en microlitres:"))
+c=a/b
+print("la concentration",c)

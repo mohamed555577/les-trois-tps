@@ -1,0 +1,14 @@
+# exercice 8
+a=int(input("x="))
+b=int(input("y="))
+s=a+b
+d=a-b
+p=a*b 
+q=a/b
+r=a%b
+print("la somme= ",s)
+print("la difference=",d)
+print("le produit=",p)
+print("le quotient =",q)
+print("le reste=",r)
+5

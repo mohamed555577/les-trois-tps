@@ -1,0 +1,6 @@
+
+ # exercice 14
+a=float(input("montant en dirhms marocain:")) 
+b=float(input("le taux de conversion:"))
+e=a*b
+print("le monton en euro:",e)

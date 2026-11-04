@@ -1,0 +1,4 @@
+# exercice4
+a=int(input("saisir un nombre entier :"))
+print("le nombre saisi est",a)
+7

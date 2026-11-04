@@ -1,0 +1,18 @@
+a=int(input("saisir le nb secret"))
+nb=0
+v=0
+s=0
+while True :
+   if a<15 :
+    nb=nb+1
+    a=int(input("tres petit saisir le nb secret"))
+     
+   elif a>15 :
+    v=v+1
+    a=int(input(" trop grand saisir le nb secret"))
+    
+   else :
+    s=s+1
+    break
+g =nb +v+s
+print(g)

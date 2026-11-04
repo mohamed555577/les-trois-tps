@@ -1,0 +1,9 @@
+a=float(input("saisir R1:"))
+b=float(input("saisir R2:"))
+c=float(input("saisir R3:"))
+d=input("les resistances sont branchées(parallele ou serie)")
+if d=="parallele":
+    R=(a+b+c)/(a*b+a*c+b*c)
+else:
+    R=a+b+c
+print("la resistance equivalente est",R)

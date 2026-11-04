@@ -1,0 +1,29 @@
+
+import math
+a=int(input("saisir la valeur de a:"))
+b=int(input("saisir la valeur de b:"))
+c=int(input("saisir la valeur de c:"))
+if a ==0:
+    if b==0:
+        if c==0:
+            y="R"
+        else:
+            y=" ensemble vive"
+    else:
+        y=-c/b
+    print(y)
+else:
+    q=b**2-4 *a*c
+
+
+    if q>0:
+        x1=(-b+math.sqrt(q))/(2*a) 
+        x2=(-b-math.sqrt(q))/(2*a)
+        print("les solutions sont ",x1,x2)
+    elif q==0:
+      x=(-b)/2*a
+      print(x)
+    elif q<0:
+      g= "pas de solution"
+      print("la solution de cette equation",g)
+

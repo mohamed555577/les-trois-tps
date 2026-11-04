@@ -1,0 +1,9 @@
+ #exercice 13
+a=float(input("qt="))
+b=float(input("pu="))
+pt=a*b
+pr=pt*0.45
+pf=pt-pr
+print("prix totale avant reduction:",pt)
+print("montant de reduction:",pr)
+print("prix final:",pf)

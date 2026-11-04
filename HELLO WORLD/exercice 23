@@ -1,0 +1,12 @@
+a=float(input("saisir la note"))
+if a<10:
+    q="insuffisant"
+elif a>=10 and a<12:
+    q="passable"
+elif a>=12 and a<14:
+    q="assez bien" 
+elif a>=14 and a<16:
+    q="bien "
+else :
+    q="tres bien"
+print(" montion",q)

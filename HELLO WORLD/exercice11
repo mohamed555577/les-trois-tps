@@ -1,0 +1,7 @@
+ # exercice 11
+a=float(input("lon="))
+b=float(input("lar="))
+air=a*b
+p=(a+b)*2
+print("l'air=",air)
+print("pirimitair=",p)

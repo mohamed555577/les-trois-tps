@@ -1,0 +1,7 @@
+a=input("saisir la chaine" )
+b=input("saisir le caractere ")
+nb=0
+for i in a:
+    if i==b:
+        nb=nb+1 
+print(nb)

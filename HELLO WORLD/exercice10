@@ -1,0 +1,4 @@
+ # exercice 10
+a=int(input("t="))
+tf=(9/5*a+32)
+print("la temperature obtenu:",tf)

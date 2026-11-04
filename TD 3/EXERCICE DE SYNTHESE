@@ -1,0 +1,10 @@
+a=input ("le nom de l'etudiant")
+b1=float(input("n1="))
+b2=float(input("n2="))
+b3=float(input("n3="))
+m=(b1+b2+b3)/3
+print(f"le nom est {a}la moyenne est {m}")
+if m>=10 :
+    print("admit")
+else:
+    print("non admit")

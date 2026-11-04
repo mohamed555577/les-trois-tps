@@ -1,0 +1,10 @@
+a=float(input("saisir A="))
+b=float(input("saisir B="))
+if a*b>0:
+    a,b=b,a 
+else:
+    d=a+b 
+    c=a*b 
+    a=d 
+    b=c 
+print("A=",a,"B=",b)

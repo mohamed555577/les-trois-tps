@@ -1,0 +1,9 @@
+a=input("saisir la chaine")
+s=""
+for c in a:
+    s=c+s
+b=s
+if a==b :
+    print("palidrome")
+else :
+    print("pas palidrome")

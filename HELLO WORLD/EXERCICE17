@@ -1,0 +1,4 @@
+a=int(input("saisi la duré de l'experience en minutes:"))
+b=a//60
+c=a%60
+print("la duré est:",b,"heurs et",c,"minutes")

@@ -1,0 +1,8 @@
+a=input("saisir la chaine")
+
+for i in a :
+    b=i.upper()
+    print(b, end = "")
+
+
+
